@@ -11,88 +11,71 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Examples" Type="Folder">
-			<Item Name="CSRF Protection" Type="Folder">
-				<Item Name="Test CSRF.vi" Type="VI" URL="../Examples/CSRF Protection/Test CSRF.vi"/>
-			</Item>
-			<Item Name="File Upload" Type="Folder">
-				<Item Name="Test File Upload.vi" Type="VI" URL="../Examples/File Upload/Test File Upload.vi"/>
-			</Item>
-			<Item Name="File Upload Controller" Type="Folder"/>
-			<Item Name="FileServe" Type="Folder">
-				<Item Name="www" Type="Folder">
-					<Item Name="ig.png" Type="Document" URL="../Examples/FileServe/www/ig.png"/>
-					<Item Name="index.html" Type="Document" URL="../Examples/FileServe/www/index.html"/>
-				</Item>
-				<Item Name="test.jpg" Type="Document" URL="../Examples/FileServe/test.jpg"/>
-			</Item>
-			<Item Name="HTTPS" Type="Folder">
-				<Item Name="cert.pem" Type="Document" URL="../Examples/HTTPS/cert.pem"/>
-				<Item Name="key.pem" Type="Document" URL="../Examples/HTTPS/key.pem"/>
-				<Item Name="Test TLS.vi" Type="VI" URL="../Examples/HTTPS/Test TLS.vi"/>
-			</Item>
-			<Item Name="QueryAuthController" Type="Folder">
-				<Item Name="QueryAuthController.lvclass" Type="LVClass" URL="../Examples/QueryAuthController/QueryAuthController.lvclass"/>
-			</Item>
-			<Item Name="Sessions" Type="Folder">
-				<Item Name="lv_session" Type="Folder">
-					<Item Name="placeholder.txt" Type="Document" URL="../Examples/Sessions/lv_session/placeholder.txt"/>
-					<Item Name="SHSp_YsJcz0xwWAI8HDictTQvS-MnOBZO5D2nTMVftQ" Type="Document" URL="../Examples/Sessions/lv_session/SHSp_YsJcz0xwWAI8HDictTQvS-MnOBZO5D2nTMVftQ"/>
-				</Item>
-			</Item>
-			<Item Name="Test HTTPS Controller" Type="Folder">
-				<Item Name="Test HTTPS Controller.lvclass" Type="LVClass" URL="../Examples/Test HTTPS Controller/Test HTTPS Controller.lvclass"/>
-			</Item>
-			<Item Name="Test Index" Type="Folder">
-				<Item Name="Test Index.lvclass" Type="LVClass" URL="../Examples/Test Index/Test Index.lvclass"/>
-			</Item>
-			<Item Name="Test Sessions Controller" Type="Folder">
-				<Item Name="Test Sessions Controller.lvclass" Type="LVClass" URL="../Examples/Test Sessions Controller/Test Sessions Controller.lvclass"/>
-			</Item>
-			<Item Name="Test WebSocket Page Controller" Type="Folder">
-				<Item Name="Test WebSocket Page Controller.lvclass" Type="LVClass" URL="../Examples/Test WebSocket Page Controller/Test WebSocket Page Controller.lvclass"/>
-			</Item>
-			<Item Name="TestAuthController" Type="Folder">
-				<Item Name="TestAuthController.lvclass" Type="LVClass" URL="../Examples/TestAuthController/TestAuthController.lvclass"/>
-			</Item>
-			<Item Name="TestCSRFController" Type="Folder">
-				<Item Name="TestCSRFController.lvclass" Type="LVClass" URL="../Examples/TestCSRFController/TestCSRFController.lvclass"/>
-			</Item>
-			<Item Name="TestQueryAuth" Type="Folder">
-				<Item Name="TestQueryAuth.lvclass" Type="LVClass" URL="../Examples/TestQueryAuth/TestQueryAuth.lvclass"/>
-			</Item>
-			<Item Name="TestQueryParamController" Type="Folder">
-				<Item Name="TestQueryParamController.lvclass" Type="LVClass" URL="../Examples/TestQueryParamController/TestQueryParamController.lvclass"/>
-			</Item>
-			<Item Name="TestUser" Type="Folder">
-				<Item Name="TestUser.lvclass" Type="LVClass" URL="../Examples/TestUser/TestUser.lvclass"/>
-			</Item>
-			<Item Name="Timer Demo" Type="Folder">
-				<Item Name="Timer Demo App" Type="Folder"/>
-				<Item Name="TimerActionController" Type="Folder"/>
-				<Item Name="TimerStatusController" Type="Folder"/>
-				<Item Name="Timer Demo.lvlib" Type="Library" URL="../Examples/Timer Demo/Timer Demo.lvlib"/>
-				<Item Name="Timer Demo.vi" Type="VI" URL="../Examples/Timer Demo/Timer Demo.vi"/>
-			</Item>
-			<Item Name="WebSocket" Type="Folder">
+		<Item Name="Basic WebSocket" Type="Folder">
+			<Item Name="Support" Type="Folder">
 				<Item Name="Say Hi Msg Callback.vi" Type="VI" URL="../Examples/WebSocket/Say Hi Msg Callback.vi"/>
-				<Item Name="Test WebSocket Upgrade.vi" Type="VI" URL="../Examples/WebSocket/Test WebSocket Upgrade.vi"/>
-				<Item Name="ws-index.html" Type="Document" URL="../Examples/WebSocket/ws-index.html"/>
-			</Item>
-			<Item Name="WebSocket Test UI Refs" Type="Folder">
+				<Item Name="Test WebSocket Page Controller.lvclass" Type="LVClass" URL="../Examples/Test WebSocket Page Controller/Test WebSocket Page Controller.lvclass"/>
 				<Item Name="WebSocket Test UI Refs.lvclass" Type="LVClass" URL="../Examples/WebSocket Test UI Refs/WebSocket Test UI Refs.lvclass"/>
 			</Item>
-			<Item Name="Serve Web Root.vi" Type="VI" URL="../Examples/Serve Web Root.vi"/>
+			<Item Name="Test WebSocket Upgrade.vi" Type="VI" URL="../Examples/WebSocket/Test WebSocket Upgrade.vi"/>
+		</Item>
+		<Item Name="Caching (Broken)" Type="Folder">
+			<Item Name="Test Caching.vi" Type="VI" URL="../Examples/Test Caching.vi"/>
+		</Item>
+		<Item Name="CSRF Protection" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="TestCSRFController.lvclass" Type="LVClass" URL="../Examples/TestCSRFController/TestCSRFController.lvclass"/>
+			</Item>
+			<Item Name="Test CSRF.vi" Type="VI" URL="../Examples/CSRF Protection/Test CSRF.vi"/>
+		</Item>
+		<Item Name="File Upload" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="File Upload Controller.lvclass" Type="LVClass" URL="../Examples/File Upload Controller/File Upload Controller.lvclass"/>
+			</Item>
+			<Item Name="Test File Upload.vi" Type="VI" URL="../Examples/File Upload/Test File Upload.vi"/>
+		</Item>
+		<Item Name="Form Authentication" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="TestAuthController.lvclass" Type="LVClass" URL="../Examples/TestAuthController/TestAuthController.lvclass"/>
+				<Item Name="TestUser.lvclass" Type="LVClass" URL="../Examples/TestUser/TestUser.lvclass"/>
+			</Item>
 			<Item Name="Test Auth Service.vi" Type="VI" URL="../Examples/Test Auth Service.vi"/>
-			<Item Name="Test Basic Forms.vi" Type="VI" URL="../Examples/Test Basic Forms.vi"/>
+		</Item>
+		<Item Name="HTTPS" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="Test HTTPS Controller.lvclass" Type="LVClass" URL="../Examples/Test HTTPS Controller/Test HTTPS Controller.lvclass"/>
+			</Item>
 			<Item Name="Test HTTPS.vi" Type="VI" URL="../Examples/Test HTTPS.vi"/>
-			<Item Name="Test Invalid Path Segment.vi" Type="VI" URL="../Examples/Test Invalid Path Segment.vi"/>
+		</Item>
+		<Item Name="Query Parameter Auth" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="QueryAuthController.lvclass" Type="LVClass" URL="../Examples/QueryAuthController/QueryAuthController.lvclass"/>
+				<Item Name="TestQueryAuth.lvclass" Type="LVClass" URL="../Examples/TestQueryAuth/TestQueryAuth.lvclass"/>
+			</Item>
 			<Item Name="Test Query Auth.vi" Type="VI" URL="../Examples/Test Query Auth.vi"/>
+		</Item>
+		<Item Name="Query Params Calculator" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="TestQueryParamController.lvclass" Type="LVClass" URL="../Examples/TestQueryParamController/TestQueryParamController.lvclass"/>
+			</Item>
 			<Item Name="Test Query Parameters.vi" Type="VI" URL="../Examples/Test Query Parameters.vi"/>
+		</Item>
+		<Item Name="Sessions" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="Test Sessions Controller.lvclass" Type="LVClass" URL="../Examples/Test Sessions Controller/Test Sessions Controller.lvclass"/>
+			</Item>
 			<Item Name="Test Sessions.vi" Type="VI" URL="../Examples/Test Sessions.vi"/>
+		</Item>
+		<Item Name="Simple Page Serve" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="Test Index.lvclass" Type="LVClass" URL="../Examples/Test Index/Test Index.lvclass"/>
+			</Item>
 			<Item Name="Test Simple Server.vi" Type="VI" URL="../Examples/Test Simple Server.vi"/>
 		</Item>
-		<Item Name="File Upload Controller.lvclass" Type="LVClass" URL="../Examples/File Upload Controller/File Upload Controller.lvclass"/>
+		<Item Name="Timer REST Demo" Type="Folder">
+			<Item Name="Timer Demo.lvlib" Type="Library" URL="../Examples/Timer Demo/Timer Demo.lvlib"/>
+			<Item Name="Timer Demo.vi" Type="VI" URL="../Examples/Timer Demo/Timer Demo.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
