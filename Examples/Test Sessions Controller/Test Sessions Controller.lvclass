@@ -13,7 +13,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="HTTP Server.lvlib:Controller.lvclass" Type="Parent" URL="/&lt;vilib&gt;/IlluminatedG/IG HTTP Server/HTTP Server/Controller/Controller.lvclass"/>
+		<Item Name="HTTP Server.lvlib:Controller.lvclass" Type="Parent" URL="../../../../lv-http-server/HTTP Server/Controller/Controller.lvclass"/>
 	</Item>
 	<Item Name="Test Sessions Controller.ctl" Type="Class Private Data" URL="Test Sessions Controller.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

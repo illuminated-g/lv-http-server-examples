@@ -22,7 +22,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="HTTP Server.lvlib:User.lvclass" Type="Parent" URL="/&lt;vilib&gt;/IlluminatedG/IG HTTP Server/HTTP Server/User/User.lvclass"/>
+		<Item Name="HTTP Server.lvlib:User.lvclass" Type="Parent" URL="../../../../lv-http-server/HTTP Server/User/User.lvclass"/>
 	</Item>
 	<Item Name="TestUser.ctl" Type="Class Private Data" URL="TestUser.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

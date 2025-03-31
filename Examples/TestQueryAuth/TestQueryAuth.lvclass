@@ -22,7 +22,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="HTTP Server.lvlib:Request Handler.lvclass" Type="Parent" URL="/&lt;vilib&gt;/IlluminatedG/IG HTTP Server/HTTP Server/Request Handler/Request Handler.lvclass"/>
+		<Item Name="HTTP Server.lvlib:Request Handler.lvclass" Type="Parent" URL="../../../../lv-http-server/HTTP Server/Request Handler/Request Handler.lvclass"/>
 	</Item>
 	<Item Name="TestQueryAuth.ctl" Type="Class Private Data" URL="TestQueryAuth.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
