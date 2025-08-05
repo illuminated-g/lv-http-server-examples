@@ -72,6 +72,9 @@
 			</Item>
 			<Item Name="Test Query Parameters.vi" Type="VI" URL="../Examples/Test Query Parameters.vi"/>
 		</Item>
+		<Item Name="Server Sent Events" Type="Folder">
+			<Item Name="Server Sent Events Example.lvlib" Type="Library" URL="../Examples/Server Sent Events/Server Sent Events Example.lvlib"/>
+		</Item>
 		<Item Name="Sessions" Type="Folder">
 			<Item Name="Support" Type="Folder">
 				<Item Name="Test Sessions Controller.lvclass" Type="LVClass" URL="../Examples/Test Sessions Controller/Test Sessions Controller.lvclass"/>
