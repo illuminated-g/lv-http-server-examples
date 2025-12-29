@@ -146,6 +146,7 @@
 			<Item Name="Flatten to JSON.vim" Type="VI" URL="../../lv-msg-simple/Stream-Simple-Msg/Flatten to JSON.vim"/>
 			<Item Name="Unflatten Data.vim" Type="VI" URL="../../lv-msg-simple/Stream-Simple-Msg/Message/Unflatten Data.vim"/>
 			<Item Name="Unflatten from JSON.vim" Type="VI" URL="../../lv-msg-simple/Stream-Simple-Msg/Unflatten from JSON.vim"/>
+			<Item Name="URI.lvlib" Type="Library" URL="../../lv-uri/URI/URI.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
