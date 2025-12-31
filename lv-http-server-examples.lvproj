@@ -16,16 +16,11 @@
 			<Item Name="Base64.lvlib" Type="Library" URL="../../lv-web-crypto/lv-base64/Base64.lvlib"/>
 			<Item Name="Crypto.lvlib" Type="Library" URL="../../lv-web-crypto/lv-crypto/Crypto/Crypto.lvlib"/>
 			<Item Name="JSON.lvlib" Type="Library" URL="../../lv-web-crypto/lv-json/JSON/JSON.lvlib"/>
-			<Item Name="Stream.lvlib" Type="Library" URL="../../lv-stream/stream/Stream.lvlib"/>
-			<Item Name="Stream-TCP.lvlib" Type="Library" URL="../../lv-stream-tcp/Stream-TCP/Stream-TCP.lvlib"/>
 			<Item Name="HTTP Utils.lvlib" Type="Library" URL="../../lv-http-util/HTTP Utils/HTTP Utils.lvlib"/>
-			<Item Name="Stream-Simple-Msg.lvlib" Type="Library" URL="../../lv-msg-simple/Stream-Simple-Msg/Stream-Simple-Msg.lvlib"/>
-			<Item Name="Stream-Websocket.lvlib" Type="Library" URL="../../lv-stream-websocket/Stream-Websocket/Stream-Websocket.lvlib"/>
 			<Item Name="HTTP Server.lvlib" Type="Library" URL="../../lv-http-server/HTTP Server/HTTP Server.lvlib"/>
 		</Item>
 		<Item Name="Basic WebSocket" Type="Folder">
 			<Item Name="Support" Type="Folder">
-				<Item Name="Say Hi Msg Callback.vi" Type="VI" URL="../Examples/WebSocket/Say Hi Msg Callback.vi"/>
 				<Item Name="Test WebSocket Page Controller.lvclass" Type="LVClass" URL="../Examples/Test WebSocket Page Controller/Test WebSocket Page Controller.lvclass"/>
 				<Item Name="WebSocket Test UI Refs.lvclass" Type="LVClass" URL="../Examples/WebSocket Test UI Refs/WebSocket Test UI Refs.lvclass"/>
 			</Item>
@@ -95,7 +90,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Assert Scalar Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Scalar Numeric Type.vim"/>
+				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -122,11 +117,17 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
+				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
+				<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
+				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
@@ -136,6 +137,7 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -143,9 +145,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Flatten to JSON.vim" Type="VI" URL="../../lv-msg-simple/Stream-Simple-Msg/Flatten to JSON.vim"/>
-			<Item Name="Unflatten Data.vim" Type="VI" URL="../../lv-msg-simple/Stream-Simple-Msg/Message/Unflatten Data.vim"/>
-			<Item Name="Unflatten from JSON.vim" Type="VI" URL="../../lv-msg-simple/Stream-Simple-Msg/Unflatten from JSON.vim"/>
+			<Item Name="ExecAnchor.lvclass" Type="LVClass" URL="../../lv-exec-anchor/ExecAnchor/ExecAnchor.lvclass"/>
+			<Item Name="Promises.lvlib" Type="Library" URL="../../lv-promises/Promises/Promises.lvlib"/>
 			<Item Name="URI.lvlib" Type="Library" URL="../../lv-uri/URI/URI.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
